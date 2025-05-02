@@ -1,0 +1,9 @@
+<family>
+  <parent name="John">
+    <child name="Anna" />
+    <child name="Ben" />
+  </parent>
+  <parent name="Lisa">
+    <child name="Tom" />
+  </parent>
+</family>
