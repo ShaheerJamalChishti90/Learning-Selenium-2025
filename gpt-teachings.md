@@ -493,7 +493,55 @@ Here’s a **simple HTML structure** you can practice on, followed by **XPath ex
 </article>
 </body>
 ```
+#### Practice Question 01 by GPT 
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Store</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Online Book Store</h1>
 
+      <div class="book" data-id="101">
+        <h2 class="title">The Alchemist</h2>
+        <p class="author">Paulo Coelho</p>
+        <span class="price">$10.99</span>
+        <div class="details">
+          <p class="genre">Fiction</p>
+          <p class="year">1988</p>
+        </div>
+      </div>
 
+      <div class="book" data-id="102">
+        <h2 class="title">Clean Code</h2>
+        <p class="author">Robert C. Martin</p>
+        <span class="price">$29.99</span>
+        <div class="details">
+          <p class="genre">Programming</p>
+          <p class="year">2008</p>
+        </div>
+      </div>
 
+      <div class="book" data-id="103">
+        <h2 class="title">Atomic Habits</h2>
+        <p class="author">James Clear</p>
+        <span class="price">$16.00</span>
+        <div class="details">
+          <p class="genre">Self-Help</p>
+          <p class="year">2018</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+```
+- Question: Using XPath, extract the price of the book titled "Clean Code".
+
+- Answer:
+```
+//body/div[contains(@class, 'container')]/div[contains(@data-id, '102')]/span[contains(@class, 'price')]/text()
+```
+---
 Would you like me to turn this into an HTML file you can **open and test in your browser with DevTools** and practice XPath live?

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* General page styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+
+      /* Main container */
+      #main {
+        background-color: #ffffff;
+        max-width: 600px;
+        margin: auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Heading */
+      #main h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      /* Intro paragraph */
+      .intro {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      /* List items */
+      ul {
+        padding-left: 20px;
+        margin-bottom: 20px;
+      }
+
+      .item {
+        padding: 8px 0;
+        color: #444;
+        list-style-type: disc;
+      }
+
+      /* Form section */
+      .form-section {
+        margin-top: 20px;
+      }
+
+      .form-section label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .form-section input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .form-section button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      .form-section button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="main">
+      <h1>Welcome</h1>
+      <p class="intro">This is the intro paragraph.</p>
+      <ul>
+        <li class="item">Apple</li>
+        <li class="item">Banana</li>
+        <li class="item">Cherry</li>
+      </ul>
+
+      <div class="form-section">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username" required="True"/>
+        <button type="submit">Submit</button>
+      </div>
+
+    </div>
+
+  </body>
+</html>
