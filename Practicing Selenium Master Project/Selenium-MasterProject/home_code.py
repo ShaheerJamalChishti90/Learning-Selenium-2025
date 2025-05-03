@@ -11,3 +11,7 @@ driver.maximize_window()
 
 
 driver.get('https://www.audible.com/search')
+
+#Getting info from the page
+submenu = driver.find_element_by_xpath('//h2[contains(@id, "a-categories")]')
+print(submenu.text)
