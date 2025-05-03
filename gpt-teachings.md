@@ -459,5 +459,41 @@ Here’s a **simple HTML structure** you can practice on, followed by **XPath ex
 ```
 
 ---
+#### This is the titanic code I practiced on Xpath
+```
+<body>
+<article class="article1">
+
+    <h1> Titanic(1997) </h1>
+    <p class ="plot" > 84 years later... </p>
+    <p class ="plot2" > In the end ... </p>
+
+    <div class ="script" id="123">
+    "Hello People! We're inside the DIV of ARTICLE 01 - This is the ONLY DIV present in Article 01"
+    </div>
+</article>
+
+<article class ="article2">
+
+    <h1> Titanic(1992) </h1>
+    <p class ="plot" > 94 years later... </p>
+    <p class ="plot2" > In the end ... </p>
+
+    <div class ="script" id="123">
+    "Hello People! We're inside the 01 DIV of ARTICLE 02 - This is the 01 DIV present in Article 02"
+    </div>
+
+    <div class ="script" id="456">
+    "Hello People! We're inside the DIV 02 of ARTICLE 02 - This is the 02 DIV present in Article 02"
+    </div>
+
+    <div class ="script" id="789">
+    "Hello People! We're inside the DIV 03 of ARTICLE 02 - This is the 03 DIV present in Article 02"
+    </div>
+</article>
+</body>
+```
+
+
 
 Would you like me to turn this into an HTML file you can **open and test in your browser with DevTools** and practice XPath live?
